@@ -8,9 +8,10 @@ Abra o navegador:
 
 2. Abra o Google Chrome ou qualquer outro navegador baseado no Chromium.
 Acesse a página de extensões:
-ˋˋˋbash
+
+```bash
 Digite chrome://extensions/ na barra de endereços e pressione Enter.
-ˋˋˋ
+```
 
 3. Ative o modo de desenvolvedor:
 No canto superior direito da página de extensões, ative o "Modo do desenvolvedor" (Developer mode).
