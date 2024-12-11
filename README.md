@@ -25,3 +25,17 @@ Agora, a extensão está instalada e pronta para uso. Você pode abrir o popup d
 
 6. Atalho da extensão:
 CTRL + B
+
+
+# Rodar aplicação via servidor
+
+Dependências
+
+```bash
+npm install express sqlite3 sqlite cors
+```
+
+Subir o servidor
+```bash
+node server.js
+```

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Mouse Position Tracker",
+  "version": "1.0",
+  "description": "Salva posições do mouse",
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:3000/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }]
+}
+
