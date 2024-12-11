@@ -39,3 +39,14 @@ Subir o servidor
 ```bash
 node server.js
 ```
+
+# Python mouse tracking
+
+1. Instale as dependências necessárias
+```bash
+pip install pyautogui pynput
+```
+
+2. Execute o script com `python mouse_tracker.py`.
+3. Pressione F8 para salvar a posição atual do mouse.
+4. Para encerrar o programa, pressione Ctrl+C.
