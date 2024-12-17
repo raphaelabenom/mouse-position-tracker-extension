@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 400px;
+            padding: 16px;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background: #f5f5f5;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+        .shortcut {
+            color: #2196F3;
+            font-weight: bold;
+        }
+        .position-item {
+            padding: 12px;
+            margin: 8px 0;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border-left: 4px solid #2196F3;
+        }
+        .coords {
+            font-family: monospace;
+            margin: 5px 0;
+        }
+        .url {
+            color: #666;
+            font-size: 0.9em;
+            word-break: break-all;
+        }
+        .timestamp {
+            color: #888;
+            font-size: 0.8em;
+        }
+        .buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 16px;
+        }
+        button {
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #exportBtn {
+            background: #2196F3;
+            color: white;
+        }
+        #clearBtn {
+            background: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Pressione <span class="shortcut">Ctrl + B</span> para salvar a posição do mouse
+    </div>
+
+    <div id="positions"></div>
+
+    <div class="buttons">
+        <button id="exportBtn">Exportar TXT</button>
+        <button id="clearBtn">Limpar Tudo</button>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
